@@ -1,0 +1,17 @@
+.option__cost{
+    margin-left:20%;
+    margin-right:30%;
+    font-size: 15px;
+    color: gray;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .option__cost{
+        font-size: 13px;
+        color: red;
+        margin: 0px 0px;
+    }
+
+}
+

@@ -1,0 +1,252 @@
+body{
+    margin: auto;
+    
+}
+.imgcontainer{
+    background: linear-gradient(to bottom,rgba(157,14,14,0)45%,#310f0f 105%) ,url('../foodWallpaper.png');
+    border-style: solid ;
+    border-color: white;
+    background-size: cover;
+    object-fit: contain;
+    width: 100%;
+}
+.btnContainer{
+    float: right;
+    margin:5px;
+   
+}
+.btnContainer button{
+    color:rgb(95, 60, 13);
+    position: sticky;
+    top:0;
+    z-index: 1;
+    height: 35px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 5px;
+    border: none;
+    border: none;
+    background: gray;
+    opacity: 70%;
+    font-family: Poppins;
+    font-size: 18px; 
+}
+.btnContainer button:hover {
+    transform: scale(1.02); 
+    transition: transform;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 100%;
+    background: white;
+    color:rgb(161, 86, 25);
+    
+}
+.logo{
+    background: url('../chef1.png');
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin:auto;
+    border-radius:50%;
+    margin-top: 100px ;
+    /* margin-bottom: 80px; */
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 165px;
+    background-repeat: no-repeat;
+}
+.tagline >h1{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Kaushan Script', cursive;
+    /* font-style: italic;   */
+}
+
+.HeadComp{
+    text-align:center;
+    /* padding: 10px; */
+    
+}
+.HeadComp h2{
+    text-transform: capitalize;
+    font-size:50px;
+    text-align:center;
+    color:white;
+    margin-top: 0px;
+    padding-top: 40px;
+    font-family: Poppins;
+    padding: 10px;    
+}
+.locationselector{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;   
+}
+.locationselector:focus{
+    outline: none;
+}
+.dropdown{
+    width:250px;
+    height:53px;
+    font-family: Poppins;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 3%;
+    color: #d5743e;
+}
+.dropdown:focus{
+    outline: none;
+    cursor: pointer;
+}
+.restaurantsinput{
+    border:none;
+    border-radius: 0px 25px 25px 0px;
+    width:345px;
+    height:53px;
+    font-family: Poppins;
+    font-size: 20px;
+    padding-left: 4%;
+     
+}
+::placeholder{
+    color:#d5743e ;  
+}
+.restaurantsinput:focus{
+    outline: none;
+}
+#city::placeholder{
+    color: red;
+}
+.quickSearchContainer{
+    margin-left:115px;
+    margin-top:50px;
+    margin-bottom: 130px;
+    
+}
+.quickSearchHeading{
+    text-align: left;
+    color: #192f60;
+    font-size:35px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: Poppins;
+    
+}
+.quickSearchSubheading{
+    font-size: 20px;
+    color: gray;
+}
+.titleContainer{
+    box-shadow: 0 3px 6px gray;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:400px;
+    height: 185px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.titleContainer:hover {
+    transform: scale(1.02); 
+    transition: transform;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.titleComponent1{
+    width:50%;
+    float: left;
+    width: max-content;
+    position: relative;
+    height:185px; 
+    width:185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px; 
+}
+.titleComponent2{
+    width:50%;
+    float: left;
+    margin-top: 30px;
+    
+}
+.componentHeading{
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Poppins;
+}
+.componentSubHeading{
+    text-align: center;
+    font-family: Poppins;
+    color: gray;
+    font-size: 15px;
+}
+.titleComponent1>img{
+    border-radius: 10px 0px 0px 10px;
+    height:185px;
+    width: 185px;
+    object-fit: cover;
+}
+
+.fa-search:before {
+    content: "\f002";
+    padding: 0px;
+    font-size: 21px;
+    text-align: center;
+    color: #d5743e;
+    position: relative;
+    right: 330px;
+}
+
+.searchbutton:focus{
+    outline: none;
+}
+.searchicon{
+    font-style: font-awesome;
+    font-size: 50px;
+    opacity: 100%;
+}
+
+
+
+@media screen and (max-width: 695px) {
+    .imgcontainer{
+        width:100%;      
+    }
+    .logo{
+        height:90px;
+        width:90px ;
+        margin-bottom: 10px;
+        background-size: cover;
+
+    }
+    .dropdown{
+        width:45%;
+    }
+    .restaurantsinput{
+        width: 50%;
+    }
+    .fa-search:before {
+        content: "\f002";
+        padding: 0px;
+        font-size: 21px;
+        text-align: center;
+        color: #d5743e;
+        position: relative;
+        right: 215px;
+    }
+    .quickSearchContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:5px;
+        margin-top:50px;
+        margin-bottom: 130px;
+    }
+    .HeadComp h2{
+        font-size: 35px;
+    }
+    
+  }

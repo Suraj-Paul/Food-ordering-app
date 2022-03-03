@@ -1,0 +1,209 @@
+.titlebar{
+    margin: auto;
+    padding: 15px;
+    background-color: red;
+    height: 70px;  
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#Logo {
+    background: url(chef1.png);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 60px;
+}
+.Login{
+    height: 40px;
+    width: 70px;
+    background: red;
+    float: right;
+    margin-top: -55px;
+    margin-right: 155px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.Login:hover{
+    background: #e43030;
+}
+.Login:focus{
+    outline: none;
+}
+.Creataccount{  
+    height: 40px;
+    width: 140px;
+    background: #e73838;
+    float: right;
+    margin-top: -55px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1.3px;
+    padding-top: 8px;
+    color: white;
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 18px;
+    border: none;
+}
+.Creataccount:hover{
+    box-shadow: 0px 0px 1px 0px black;
+}
+.Creataccount:focus{
+    outline: none;
+}
+.imgContainer{
+    background: url("breakfast.png");
+    height: 540px;
+    width: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.ClickContainer{
+    position: relative;
+}
+
+.ClickContainer:hover{
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.clickme{
+    font-weight: bold;
+    color: #000000;
+    height: 40px;
+    width: 195px;
+    background: white;
+    position: relative;
+    left:725pxpx;
+    top: 490px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    opacity: 50%;
+}
+
+.clickme:hover{
+     box-shadow:  0px 0px 2px 2px black
+}
+
+.clickme:focus{
+    outline: none;
+}
+
+.Heading{
+    width: 298px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight:bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(14, 14, 99);
+}
+
+main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.tabs {
+	position: relative;
+	clear: both;
+  color:#192f60;
+}
+
+.tabs .tab {
+	float: left;
+}
+
+.tabs .tab .content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	width: 100%;
+	padding: 20px 20px 40px 20px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.checkboxtab {
+	display: none;
+}
+.tab label {
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 500;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.checkboxtab:checked~label {
+	font-weight: bold;
+	border-bottom:2px solid orangered;
+}
+.checkboxtab:checked~.content {
+	display: block;
+}
+.content h3 {
+	margin: 30px 0;
+}
+.content p {
+	margin-bottom: 50px;
+}
+
+.content h4 {
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.contact-number p {
+    color: #f67082;
+}
+
+.address h2 {
+	margin: 30px 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+#myCarousel{
+    height: 526px;
+    width: 935px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner{
+    height: 526px;
+    width: 935px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Container{
+    width: 935px;
+
+}
+react-tabs__tab-list {
+    border-bottom: 1px solid #aaa;
+    margin-top:40px px;
+    padding-bottom: 67px;
+}

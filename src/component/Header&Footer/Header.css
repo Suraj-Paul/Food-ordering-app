@@ -1,0 +1,70 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 5px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    margin-bottom: 20px;
+    
+}
+.header__left{
+    display: flex;
+}
+
+.header__left img{
+    background: white;
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    object-fit: contain;
+    border-radius: 50%;
+    margin:5px;  
+}
+
+.header__left{
+    background-color:#ce2d2dec;
+    border-radius: 50px;
+    width: 180px;
+    align-items: center;
+}
+
+.header__left h2{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin:20px 0px;  
+}
+
+.header__right{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .header__right >button{
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 35px;
+    text-transform: capitalize;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-family: Poppins;
+} */
+
+.login:hover{
+    background: #e43030;
+}
+
+.Create__account:focus{
+    outline: none;
+}
+
+.Create__account:hover{
+    background: #e43030;
+}

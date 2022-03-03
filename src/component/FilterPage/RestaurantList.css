@@ -1,0 +1,60 @@
+.restaurantlist__container{
+    height: 290px;
+    width: 100%;
+    box-shadow: 0px 0px 3px 1px gray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display:inline-block;
+    flex: 0.8; 
+}
+.restaurantlist__details{
+    color: indigo;
+    font-family: Poppins;
+    display: flex;    
+}
+.restaurantlist__name a{
+    text-decoration: none;
+}
+
+.restaurantlist__image{
+    height: 160px;
+    width: 250px;
+    background-size: cover; 
+    border-radius: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+.restaurantlist__name h4{
+    margin: 20px 10px 0px;
+}
+
+.restaurantlist__price{
+    width:100%;
+    margin-top: 15px;
+    font-size: 17px;
+    font-stretch: normal;
+    line-height: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+    color:gray;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 600px){
+    .restaurantlist__image{
+        height: 25%;
+        width:25%;
+        background-size: cover; 
+        border-radius: 10px;
+    }
+    .restaurantlist__name h4{
+        margin: 20px 10px 0px ;
+    }
+    .restaurantlist__name h2{
+        margin: 5px 10px 0px;
+    }
+    
+    
+}

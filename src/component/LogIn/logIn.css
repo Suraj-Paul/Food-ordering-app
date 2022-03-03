@@ -1,0 +1,51 @@
+.logIn{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom:2px solid rgb(216, 213, 210);
+    border-right:2px solid rgb(216, 213, 210);
+    border-radius: 15px;
+    background:url('https://startbootstrap.com/assets/img/freepik/wall-post-pana.svg');
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    padding:10px 10px 100px 150px ; 
+}
+.logIn>h3{
+    margin:0px;
+    color:rgb(69 90 100);
+    padding:0px 15px 2px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    /* border-bottom:px solid gray  ;
+    border-bottom-style: ridge;    */
+}
+.login_logo{
+    width: 100px;
+    border-radius: 50%;
+}
+.login_Container{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    /* border-left: 1px solid rgb(199, 195, 195); */
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.login_Container>h1{
+    font-family: Poppins;
+    color: rgb(69 90 100);
+    margin: 0px;
+    font-family: Poppins;
+    font-size: 25px;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+

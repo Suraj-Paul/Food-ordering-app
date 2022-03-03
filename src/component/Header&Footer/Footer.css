@@ -1,0 +1,103 @@
+/*Footer starts from here*/
+.footer{
+    /* background-image: linear-gradient(180deg,white 1%, rgb(88, 15, 2) 4%); */
+    background-color:rgba(50, 125, 238, 0.726);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.footComponent1{
+    display: flex;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+    /* background: url('http://absfreepic.com/absolutely_free_photos/small_photos/blue-color-on-abstract-painting-4752x3168_75940.jpg') ; 
+    background-repeat: no-repeat;
+    background-size: cover;*/   
+}
+.footer__aboutus{ 
+    max-width: cover;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer__contact{ 
+    max-width: cover;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer__feedback{
+    max-width: cover;
+    border-radius: 5px;
+    padding: 5px; 
+}
+.footComponent2{
+    margin-left: 100px auto;
+    display: flex;
+    background-size: cover;
+    background: rgba(50, 125, 238, 0.726);
+    height: 60px; 
+    position: relative;
+    padding:10px;
+    width: -webkit-fill-available;
+    justify-content: space-between; 
+    color: white;  
+}
+
+.footer2{
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 10px;  
+}
+
+.words{
+    margin: 0px 10px;
+    display: flex;
+    justify-content:space-evenly; 
+    flex: 0.5;   
+}
+
+.footer2__right >img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: space-between;
+
+}
+.footer__logo{
+    margin: 0px 5px;
+    display: inline-flex;
+    flex: 0.5;
+}
+.developer{
+    font-family: -webkit-pictograph;
+    font-size: 15px;
+    margin-left: 5px;
+    font-style: normal;
+    font: caption;
+    color: gray;
+}
+.footComponent3{
+    background-color: rgb(14, 78, 116);
+}
+
+
+.footer__logo:hover {
+    transform: scale(1.03); 
+    transition: transform;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    /* box-shadow: 1px 1px 6px 2px #0d1d75; */
+    
+  }
+
+  @media screen and (max-width: 695px){
+    .footer2__right >img{
+        
+        width:35px;
+    }
+
+  }
+
